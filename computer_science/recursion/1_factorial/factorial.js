@@ -1,4 +1,4 @@
-const factorial = function() {
+const factorial = function(n) {
     let result = 1;
     for(let i = 2; i<= n; i++) {
         result = result * i;
@@ -6,7 +6,5 @@ const factorial = function() {
     return result;
 };
 
-
-console.log(factorial(5))
 // Do not edit below this line
 module.exports = factorial;
